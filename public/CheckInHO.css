@@ -1,0 +1,30 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    /* border: solid black 1px; */
+    margin-top: 40px;
+}
+
+.input-description {
+    font-family: 'Arial';
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20em;
+    /* border: solid black 1px; */
+}
+
+.input {
+    margin-left: 30em;
+
+}
+
+#search-button {
+    display: block;
+    margin: auto;
+}
