@@ -24,6 +24,10 @@ h1 {
 
 }
 
+.search-by-location {
+    width: 30em;
+}
+
 #search-button {
     display: block;
     margin: auto;
