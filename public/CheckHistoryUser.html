@@ -4,19 +4,20 @@
 <head>
     <meta charset="utf-8">
     <title>Check-in History</title>
-    <link rel="stylesheet" type="text/css" href="CheckHistoryUser.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
 </head>
 
 <body>
     <h1>Check-In History</h1>
-    <form>
-        <div class="input1">
+    <hr>
+    <section class="toggles">
+        <div class="input1-user">
             <span>Venue Name: </span>
             <input type="search" placeholder="Venue Name...">
             <span>Venue Address or Location Information: </span>
-            <input class="address-input" type="search" placeholder="Street name, postcode, etc...">
+            <input class="address-search-user" type="search" placeholder="Street name, postcode, etc...">
         </div>
-        <div class="input2">
+        <div class="input2-user">
             <span>Date: </span>
             <input type="date">
             <span>Start of timeframe: </span>
@@ -25,9 +26,9 @@
             <input type="time">
         </div>
         <br>
-        <button>Refine Search</button>
-    </form>
-    <section>
+        <button class="button-user">Refine Search</button>
+    </section>
+    <section class="table-user">
         <table>
             <thead>
                 <th>Name of Venue</th>

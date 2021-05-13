@@ -1,0 +1,137 @@
+body {
+    background-image: url(bg-green.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+hr {
+    background-color: black;
+    size: 2px;
+}
+
+.toggles {
+    margin-top: 1%;
+}
+
+.input1-user {
+    display: block;
+    margin-left: 9.5em;
+}
+
+.input1-venue {
+    display: block;
+    margin-top: 1%;
+    margin-left: 22.1%;
+}
+
+.input1-manage {
+    display: block;
+    margin-left: 11.6%;
+}
+
+span {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.address-search-user {
+    width: 30%;
+}
+
+.surname-input-spacing-venue {
+    margin-left: 1%;
+}
+
+.address-search-hotspot {
+    width: 30%;
+}
+
+.input2-user {
+    margin-top: 1%;
+    margin-left: 9.5em;
+    display: block;
+}
+
+.input2-venue {
+    display: block;
+    margin-top: 1%;
+    margin-left: 22.1%;
+}
+
+.input2-manage {
+    margin-left: 11.6%;
+    display: block;
+}
+
+.button-venue {
+    margin-bottom: 1%;
+    margin-left: 22.1%;
+}
+
+.button-user {
+    margin-left: 11.4em;
+}
+
+.button-manage {
+    display: block;
+    margin-left: 11.6%;
+    margin-bottom: 1%;
+}
+
+.table-user {
+    margin: auto;
+    margin-top: 1%;
+    width: 60em;
+    height: 24em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: white;
+}
+
+.table-venue {
+    margin-top: 1%;
+    margin: auto;
+    width: 705px;
+    height: 340px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: white;
+}
+
+.table-manage {
+    margin-top: 1%;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 76.8%;
+    height: 20em;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+}
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1%;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: centre;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    padding: 1%;
+}
