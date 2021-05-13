@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset = "UTF-8">
+        <title>COVID-19 Tracer</title>
+        <link rel="stylesheet" href="stylesheets/loginANDsignupStyle.css">
+
+
+    </head>
+
+
+    <body>
+
+        <div id="login" style="display: block;">
+            <h1 id="loginPageMainTitle">COVID-19 TRACER</h1>
+
+            <form id="loginPageMainOuterBox">
+                <div id="loginPageContainer">
+
+                    <div id="verticalLine"></div>
+
+                    <label>Email</label>
+                    <br>
+                    <input type="text" placeholder="Please enter your email">
+                    <br>
+                    <label>Password</label>
+                    <br>
+                    <input type="text" placeholder="Please enter your password">
+                    <br>
+                    <button id="loginButton">Login</button>
+                    <hr>
+                    <button id="createButton" type="button" onclick="return showANDhideSignup()">Create Account</button>
+
+                    <button id="facebookLoginButtons">Login with Facebook</button>
+                    <button id="googleLoginButtons">Login with Google</button>
+
+            </form>
+        </div>
+
+        <div id="showSignupPage" style="display:none;">
+
+            <div id="signupPageMainOuterBox">
+
+                <div id="signupPageContainer">
+
+                    <h1 id="signupPageMainTitle">Sign Up</h1>
+
+                    <label>First Name</label>
+                    <br>
+                    <input type="text" placeholder="First Name" id="signupPageInput">
+                    <br>
+                    <label>Last Name</label>
+                    <br>
+                    <input type="text" placeholder="Last Name" id="signupPageInput">
+                    <br>
+                    <label>Date of Birth</label>
+                    <br>
+                    <input type="text" placeholder="Please enter your date of birth" id="signupPageInput">
+                    <br>
+                    <label>Email</label>
+                    <br>
+                    <input type="text" placeholder="Please enter your email" id="signupPageInput">
+                    <br>
+                    <label>Password</label>
+                    <br>
+                    <input type="text" placeholder="Please enter your password" id="signupPageInput">
+                    <br>
+                    <label>Re-enter Password</label>
+                    <br>
+                    <input type="text" placeholder="Please re-enter your password" id="signupPageInput">
+                    <br>
+                    <label>Address</label>
+                    <br>
+                    <input type="text" placeholder="Please enter your address" id="signupPageInput">
+                    <br>
+                    <label>Phone Number</label>
+                    <br>
+                    <input type="text" placeholder="Please enter your phone number" id="signupPageInput">
+                    <br>
+
+                    <label id="signupTCLabel">
+                        <input type="checkbox"> Agree to Terms & Conditions
+                    </label>
+
+                    <button id="signupPageSubmitButton">Submit</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    <script src="loginANDsignup.js"></script>
+    </body>
+
+</html>
