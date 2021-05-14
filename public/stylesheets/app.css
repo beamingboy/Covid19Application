@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/bg-green.jpg);
+    background-image: url(images/Background_image_blue_desaturated.png);
 }
 
 h1 {
@@ -84,6 +84,15 @@ span {
     display: block;
 }
 
+.input-description {
+    font-family: 'Arial';
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20em;
+    /* border: solid black 1px; */
+}
+
 .button-venue {
     margin-bottom: 1%;
     margin-left: 22.1%;
@@ -91,6 +100,18 @@ span {
 
 .button-user {
     margin-left: 11.4em;
+}
+
+#search-button {
+    display: block;
+    width: 10%;
+    padding: 1em;
+    border-radius: 0.4em;
+    border-style: solid;
+    background-color: rgb(228, 217, 217);
+    border-color: black;
+    border-width: 1px;
+    margin: auto;
 }
 
 .button-manage {
@@ -156,4 +177,9 @@ td {
     font-family: sans-serif;
     word-wrap: break-word;
     padding: 1%;
+}
+
+.smallFont
+{
+    margin-left: 30em;
 }
