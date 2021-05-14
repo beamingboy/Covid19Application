@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Check In History (Admin)</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/app.css"> </head> <body>
+    <main>
+        <h1>Check-In History</h1>
+        <hr>
+        <section class="toggles">
+            <div>
+                <h2 class="input-description-admin">Search by given name, surname, or both:</h2>
+                <input class="input-admin" type="text" placeholder="Given Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div>
+                <h2 class="input-description-admin">Search by venue name, venue address, suburb, city, or state:</h2>
+                <input class="input-admin search-by-location-admin" type="search"
+                    placeholder="Venue Name or Location Information...">
+
+            </div>
+            <div>
+                <h2 class="input-description-admin">Enter date:</h2>
+                <input class="input-admin" type="date">
+            </div>
+            <div>
+                <h2 class="input-description-admin">Enter start of timeframe:</h2>
+                <input class="input-admin" type="time">
+            </div>
+            <div>
+                <h2 class="input-description-admin">Enter end of timeframe:</h2>
+                <input class="input-admin" type="time">
+            </div>
+        </section>
+        <br><br>
+        <button id="search-button-admin">Get Check-in History</button>
+    </main>
+    </body>
+
+</html>

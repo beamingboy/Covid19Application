@@ -1,0 +1,161 @@
+body
+{
+    background: linear-gradient(-45deg,#eeffb1, #ddf87a,#a0c228);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;    
+    box-sizing: border-box;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+input
+{
+    width: 56.5%;
+    padding: 12px 20px;
+    margin: 5px 0 25px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+}
+
+label
+{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+hr
+{
+    margin: 12px;
+    width: 53%;
+}
+
+#loginPageMainTitle
+{
+    font-family: fantasy;
+    font-weight: 500;
+    font-size: 300%;
+    text-align: center;
+}
+
+#verticalLine
+{
+    position:absolute;
+    left: 55%;
+    border: 2px solid slategray;
+    height: 310px;
+}
+
+#loginPageMainOuterBox
+{
+    background-color: white;
+    margin: 5% auto 5% auto;
+    border: 2px solid #888;
+    width: 65%;
+    box-shadow: 0 20px 20px 0 rgb(0 0 0 /30%);
+
+}
+
+#loginPageContainer
+{
+    padding: 15px;
+}
+
+#loginButton
+{
+    padding: 10px 20px;
+    background-color: #088658;
+    color: white;
+    width: 56.5%;
+    margin: 8px 0;
+}
+
+#createButton
+{
+    padding: 10px 20px;
+    background-color: #244cff;
+    color: white;
+    width: 56.5%;
+    position: relative;
+    margin: 8px 0;
+}
+
+#facebookLoginButtons
+{
+    position: absolute;
+    left: 56.2%;
+    top: 46%;
+    padding: 10px 20px;
+    background-color: #1260a8;
+    color: white;
+    width: 25%;
+    margin: 18px 0;
+}
+
+#googleLoginButtons
+{
+    position: absolute;
+    left: 56.2%;
+    top: 54.5%;
+    padding: 10px 20px;
+    background-color: #c93d1a;
+    color: white;
+    width: 25%;
+    margin: 18px 0;
+}
+
+#signupPageMainOuterBox
+{
+    background-color: white;
+    margin: 5% auto 5% auto;
+    border: 2px solid #888;
+    width: 45%;
+}
+
+#signupPageContainer
+{
+    padding: 15px;
+}
+
+#signupPageMainTitle
+{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 300%;
+}
+
+#signupPageInput
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0 25px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+}
+
+#signupPageSubmitButton
+{
+    padding: 10px 20px;
+    background-color: #088658;
+    color: white;
+    width: 100%;
+    margin: 8px 0;
+}
+
+#signupTCLabel
+{
+    font-weight: 100;
+}
