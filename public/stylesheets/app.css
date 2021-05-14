@@ -17,6 +17,14 @@ hr {
     margin-top: 1%;
 }
 
+.input-description-admin {
+    font-family: 'sans-serif';
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20em;
+}
+
 .input1-user {
     display: block;
     margin-left: 9.5em;
@@ -31,6 +39,10 @@ hr {
 .input1-manage {
     display: block;
     margin-left: 11.6%;
+}
+
+.input-admin {
+    margin-left: 30em;
 }
 
 span {
@@ -49,6 +61,11 @@ span {
 .address-search-hotspot {
     width: 30%;
 }
+
+.search-by-location-admin {
+    width: 30em;
+}
+
 
 .input2-user {
     margin-top: 1%;
@@ -80,6 +97,11 @@ span {
     display: block;
     margin-left: 11.6%;
     margin-bottom: 1%;
+}
+
+#search-button-admin {
+    display: block;
+    margin: auto;
 }
 
 .table-user {
