@@ -1,0 +1,81 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+}
+
+header
+{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+h1 {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+label
+{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+hr
+{
+    margin: 20px 0 15px 0;
+}
+
+button
+{
+    padding: 10px 20px;
+    background-color: #088658;
+    color: white;
+    width: 100%;
+    margin: 8px 0;
+    cursor: pointer;
+    border: none;
+}
+
+#mainContainer
+{
+    padding: 8px;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+#signupContainer
+{
+    width: 100%;
+    background-color: white;
+    border: 2px solid #888;
+    margin: 3% 0 3% 0;
+    box-shadow: 0 20px 20px 0 rgb(0 0 0 /30%);
+    padding: 15px;
+}
+
+#allInput
+{
+    padding: 10px;
+    margin: 5px 0px 15px 0;
+    width: 100%;
+    background-color: gainsboro;
+    border: none;
+}
+
+#radioInput
+{
+    cursor: pointer;
+}

@@ -1,0 +1,133 @@
+/* Start of Login Page Specific CSS */
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background: linear-gradient(-45deg,#849159, #bfdb5a,#8dad17);
+	background-size: 500% 500%;
+	animation: gradient 5s ease infinite;    
+    margin: 0;
+}
+
+@keyframes gradient 
+{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+header
+{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    margin: 0%;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+label
+{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+hr
+{
+    margin: 20px 0 15px 0;
+}
+
+button
+{
+    padding: 10px 20px;
+    background-color: #088658;
+    color: white;
+    width: 100%;
+    margin: 8px 0;
+    cursor: pointer;
+    border: none;
+}
+
+#mainContainer
+{
+    padding: 8px;
+    width: 65%;
+    margin: auto auto auto 25%;
+    display: flex;
+}
+
+#loginContainer
+{
+    width: 50%;
+    background-color: white;
+    border: 2px solid #888;
+    border-right: none;
+    margin: 3% 0 3% 0;
+    box-shadow: 0 20px 20px 0 rgb(0 0 0 /30%);
+    float: left;
+    padding: 15px;
+}
+
+#socialMediaContainer
+{
+    width: 25%;
+    background-color: white;
+    border: 2px solid #888;
+    border-left: none;
+    margin: 3% 0 3% 0;
+    box-shadow: 0 20px 20px 0 rgb(0 0 0 /30%);
+    float: left;
+    padding: 15px;
+}
+
+#infoInput
+{
+    padding: 10px;
+    margin: 5px 0px 15px 0;
+    width: 100%;
+    background-color: gainsboro;
+    border: none;
+}
+
+#radioInput
+{
+    margin: 5px 0 5px 20px;
+    cursor: pointer;
+}
+
+#createAccountButton
+{
+    background-color: #1c47d1;
+    margin-top: 0.5px;
+}
+
+#createAccountButtonText
+{
+    text-align: center;
+}
+
+#facebookButton
+{
+    margin-top: 80%;
+    background-color: #3f5ab4;
+}
+
+#googleButton
+{
+    background-color: #be354c;
+
+}
+
+/* End of Login Page Specific CSS */
