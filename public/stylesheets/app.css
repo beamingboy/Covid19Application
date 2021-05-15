@@ -24,6 +24,9 @@ hr {
     text-align: left;
     margin-left: 20em;
 }
+.input{
+    width: 13%;
+}
 
 .input1-user {
     display: block;
@@ -182,4 +185,10 @@ td {
 .smallFont
 {
     margin-left: 30em;
+}
+
+.OccupationDropBox
+{
+    width: 13%;
+    padding: 1px;
 }
